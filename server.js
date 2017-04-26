@@ -5,7 +5,7 @@ var os = require('os');
 
 app.get('/', function(req,res){
 	var data = {
-		ipaddress: req.ip.split(':')[2],
+		ipaddress: req.ip.split(':')[3],
 		language: (req.headers['accept-language']).split(',')[0],
 		software: (req.headers['user-agent']).split('(')[1].split(')')[0]
 	}
