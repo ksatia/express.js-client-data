@@ -10,4 +10,4 @@ app.get('/', function(req,res){
 		software: (req.headers['user-agent']).split('(')[1].split(')')[0]
 	}
 	res.send(data);
-}).listen(8080);
+}).listen(process.env.PORT);
