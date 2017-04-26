@@ -1,0 +1,15 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "Simple API that returns the ipaddress, browser language and OS of client computer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karan Satia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
+}
